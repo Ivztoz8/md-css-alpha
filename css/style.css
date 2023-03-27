@@ -1,0 +1,292 @@
+/* -------------------------------------------------------------------------- */
+/*                           Mightness Developer CSS                          */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                    RESET                                   */
+/* -------------------------------------------------------------------------- */
+
+body, html {
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,*:before, *:after{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{ margin: 0; padding: 0;}
+ul, ol{list-style-type: none;}
+img{height: auto;}
+
+/* -------------------------------------------------------------------------- */
+/*                                   BASE                                     */
+/* -------------------------------------------------------------------------- */
+
+
+body{font-family: system-ui, "Helvetica Neue", Arial, sans-serif;}
+
+h1,h2,h3,h4,h5,h6,p{color: #333; margin-bottom: 20px;}
+
+h1{font-size: 60px; line-height: 1; font-weight: 800;}
+h2{font-size: 40px; line-height: 1.3; font-weight: 800;}
+h3{font-size: 30px; line-height: 1.3; font-weight: 800;}
+h4{font-size: 25px; line-height: 1.3; font-weight: 800;}
+h5{font-size: 20px; line-height: 1.3; font-weight: 800;}
+h6{font-size: 15px; line-height: 1.3; font-weight: 800;}
+
+.img-res{width: 100%; height: auto;} /* Responsive Image */
+
+/* -------------------------------------------------------------------------- */
+/*                              HELPER'S CLASSES                              */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                   Margin                                   */
+/* -------------------------------------------------------------------------- */
+
+.m-0{margin: 0.5px;}
+.m-1{margin: 10px;}
+.m-2{margin: 20px;}
+.m-3{margin: 30px;}
+.m-4{margin: 40px;}
+.m-5{margin: 50px;}
+.m-6{margin: 60px;}
+.m-7{margin: 70px;}
+
+/* ------------------------------Margin Top--------------------------------- */
+
+.mt-0{margin-top: 0.5px;}
+.mt-1{margin-top: 10px;}
+.mt-2{margin-top: 20px;}
+.mt-3{margin-top: 30px;}
+.mt-4{margin-top: 40px;}
+.mt-5{margin-top: 50px;}
+.mt-6{margin-top: 60px;}
+.mt-7{margin-top: 70px;}
+
+/* ------------------------------Margin Bottom--------------------------------- */
+
+.mb-0{margin-bottom: 0.5px;}
+.mb-1{margin-bottom: 10px;}
+.mb-2{margin-bottom: 20px;}
+.mb-3{margin-bottom: 30px;}
+.mb-4{margin-bottom: 40px;}
+.mb-5{margin-bottom: 50px;}
+.mb-6{margin-bottom: 60px;}
+.mb-7{margin-bottom: 70px;}
+
+/* ------------------------------Margin Left--------------------------------- */
+
+.ml-0{margin-left: 0.5px;}
+.ml-1{margin-left: 10px;}
+.ml-2{margin-left: 20px;}
+.ml-3{margin-left: 30px;}
+.ml-4{margin-left: 40px;}
+.ml-5{margin-left: 50px;}
+.ml-6{margin-left: 60px;}
+.ml-7{margin-left: 70px;}
+
+/* ------------------------------Margin Right--------------------------------- */
+
+.mr-0{margin-right: 0.5px;}
+.mr-1{margin-right: 10px;}
+.mr-2{margin-right: 20px;}
+.mr-3{margin-right: 30px;}
+.mr-4{margin-right: 40px;}
+.mr-5{margin-right: 50px;}
+.mr-6{margin-right: 60px;}
+.mr-7{margin-right: 70px;}
+
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                   Padding                                  */
+/* -------------------------------------------------------------------------- */
+
+.p-0{padding: 0.5px;}
+.p-1{padding: 10px;}
+.p-2{padding: 20px;}
+.p-3{padding: 30px;}
+.p-4{padding: 40px;}
+.p-5{padding: 50px;}
+.p-6{padding: 60px;}
+.p-7{padding: 70px;}
+
+/* ------------------------------Padding Top--------------------------------- */
+
+.pt-0{padding-top: 0.5px;}
+.pt-1{padding-top: 10px;}
+.pt-2{padding-top: 20px;}
+.pt-3{padding-top: 30px;}
+.pt-4{padding-top: 40px;}
+.pt-5{padding-top: 50px;}
+.pt-6{padding-top: 60px;}
+.pt-7{padding-top: 70px;}
+
+/* ------------------------------Padding Bottom--------------------------------- */
+
+.pb-0{padding-bottom: 0.5px;}
+.pb-1{padding-bottom: 10px;}
+.pb-2{padding-bottom: 20px;}
+.pb-3{padding-bottom: 30px;}
+.pb-4{padding-bottom: 40px;}
+.pb-5{padding-bottom: 50px;}
+.pb-6{padding-bottom: 60px;}
+.pb-7{padding-bottom: 70px;}
+
+/* ------------------------------Padding Left--------------------------------- */
+
+.pl-0{padding-left: 0.5px;}
+.pl-1{padding-left: 10px;}
+.pl-2{padding-left: 20px;}
+.pl-3{padding-left: 30px;}
+.pl-4{padding-left: 40px;}
+.pl-5{padding-left: 50px;}
+.pl-6{padding-left: 60px;}
+.pl-7{padding-left: 70px;}
+
+/* ------------------------------Padding Right--------------------------------- */
+
+.pr-0{padding-right: 0.5px;}
+.pr-1{padding-right: 10px;}
+.pr-2{padding-right: 20px;}
+.pr-3{padding-right: 30px;}
+.pr-4{padding-right: 40px;}
+.pr-5{padding-right: 50px;}
+.pr-6{padding-right: 60px;}
+.pr-7{padding-right: 70px;}
+
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                   Display                                  */
+/* -------------------------------------------------------------------------- */
+
+.d-bl{ display: block;}
+.d-in{ display: inline;}
+.d-inbl{ display: inline-block;}
+.d-fx{ display: flex;}
+.d-in-fx{display: inline-flex;}
+.d-gr{ display: grid;}
+.d-in-gr{display: inline-grid;}
+.d-in-tb{display: inline-table;}
+
+/* -------------------------------------------------------------------------- */
+/*                                   Position                                 */
+/* -------------------------------------------------------------------------- */
+
+.p-rel{ position: relative;}
+.p-abs{ position: absolute;}
+.p-fix{ position: fixed;}
+.p-stk{ position: sticky;}
+
+/* -------------------------------------------------------------------------- */
+/*                                   Flex                                     */
+/* -------------------------------------------------------------------------- */
+
+/* ------------------------------Flex direction--------------------------------- */
+
+.fx-row{flex-direction: row;}
+.fx-r-row{flex-direction: row-reverse;}
+.fx-col{flex-direction: column;}
+.fx-r-col{flex-direction: column-reverse;}
+
+/* ------------------------------Flex Wrap--------------------------------- */
+
+.fx-wr{flex-wrap: wrap;}
+.fx-n-wr{flex-wrap: nowrap;}
+.fx-r-wr{flex-wrap: wrap-reverse;}
+
+/* ------------------------------Justify content--------------------------------- */
+
+.fx-jc-b{justify-content: baseline;}
+.fx-jc-s{justify-content: start;}
+.fx-jc-c{justify-content: center;}
+.fx-jc-e{justify-content: end;}
+
+/* ------------------------------Align items--------------------------------- */
+
+.fx-a-it-b{align-items: baseline;}
+.fx-a-it-s{align-items: start;}
+.fx-a-it-c{align-items: center;}
+.fx-a-it-e{align-items: end;}
+
+/* ------------------------------Align self--------------------------------- */
+
+.fx-al-slf-b{align-self: baseline;}
+.fx-al-slf-s{align-self: start;}
+.fx-al-slf-e{align-self: end;}
+.fx-al-slf-c{align-self: center;}
+.fx-al-slf-str{align-self: stretch;}
+
+/* -------------------------------------------------------------------------- */
+/*                                   Grid                                     */
+/* -------------------------------------------------------------------------- */
+
+/* ------------------------------Grid column start--------------------------------- */
+
+.gr-col-s-1{grid-column-start: 1;}
+.gr-col-s-2{grid-column-start: 2;}
+.gr-col-s-3{grid-column-start: 3;}
+.gr-col-s-4{grid-column-start: 4;}
+.gr-col-s-5{grid-column-start: 5;}
+.gr-col-s-6{grid-column-start: 6;}
+.gr-col-s-7{grid-column-start: 7;}
+
+/* ------------------------------Grid column end--------------------------------- */
+
+.gr-col-e-1{grid-column-end: 1;}
+.gr-col-e-2{grid-column-end: 2;}
+.gr-col-e-3{grid-column-end: 3;}
+.gr-col-e-4{grid-column-end: 4;}
+.gr-col-e-5{grid-column-end: 5;}
+.gr-col-e-6{grid-column-end: 6;}
+.gr-col-e-7{grid-column-end: 7;}
+
+/* ------------------------------Grid row start--------------------------------- */
+
+.gr-row-s-1{grid-row-start: 1;}
+.gr-row-s-2{grid-row-start: 2;}
+.gr-row-s-3{grid-row-start: 3;}
+.gr-row-s-4{grid-row-start: 4;}
+.gr-row-s-5{grid-row-start: 5;}
+.gr-row-s-6{grid-row-start: 6;}
+.gr-row-s-7{grid-row-start: 7;}
+
+/* ------------------------------Grid row end--------------------------------- */
+
+.gr-row-e-1{grid-row-end: 1;}
+.gr-row-e-2{grid-row-end: 2;}
+.gr-row-e-3{grid-row-end: 3;}
+.gr-row-e-4{grid-row-end: 4;}
+.gr-row-e-5{grid-row-end: 5;}
+.gr-row-e-6{grid-row-end: 6;}
+.gr-row-e-7{grid-row-end: 7;}
+
+/* ------------------------------Align self--------------------------------- */
+
+.gr-al-slf-b{align-self: baseline;}
+.gr-al-slf-s{align-self: start;}
+.gr-al-slf-e{align-self: end;}
+.gr-al-slf-c{align-self: center;}
+.gr-al-slf-str{align-self: stretch;}
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                   Background                               */
+/* -------------------------------------------------------------------------- */
+
+.bg-sz-cov{background-size: cover;}
+.bg-sz-con{background-size: contain;}
+.bg-rp{background-repeat: no-repeat;}
+.bg-n-rp{background-repeat: repeat;}
+.bg-n-rp-x{background-repeat: repeat-x;}
+.bg-n-rp-y{background-repeat: repeat-y;}
+
+
+
